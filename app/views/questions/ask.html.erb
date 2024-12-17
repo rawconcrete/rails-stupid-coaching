@@ -1,1 +1,19 @@
-<%# comment for content %>
+<%# comment just for my human brain to understand that this is a file %>
+
+<%# <form action="???" data-turbo="false">
+  <input type="text" name="???">
+  <input type="submit" value="Ask!">
+</form>
+this is the syntax provided by the challenge text on kitt.
+what is data turbo. %>
+
+<form action="/answer" method="get">
+  <input type="text" name="question" placeholder="What is it?">
+  <%# placeholder is good style %>
+  <input type="submit" value="Ask!">
+</form>
+
+<%# The native behaviour of a <form> tag is to generate the HTTP request defined by the method and action attributes.
+method - holds HTTP verb, in this case get AND get by default
+the action holds the url of the request it triggers on submit, hence /answer
+ %>
