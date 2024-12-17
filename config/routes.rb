@@ -11,5 +11,5 @@ Rails.application.routes.draw do
   # the url is localhost:3000
   # this will make a page URL that is localhost:3000/ask
 
-  get "answer", to: "question#answer" # challenge 2 - display coach's answer
+  get "answer", to: "questions#answer" # challenge 2 - display coach's answer
 end
