@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  get "ask", to: "questions#ask"  # challenge 2
+  # the url is localhost:3000
+  # this will make a page URL that is localhost:3000/ask
 end
